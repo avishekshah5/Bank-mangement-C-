@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/admin"
+    android:title="ADMIN"
+    app:showAsAction="always"
+    android:icon="@drawable/admind"
+    />
+
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_build_black_24dp"
+
+        />
+
+    <item
+        android:id="@+id/developer"
+        android:title="Develper Option"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/privacy"
+        android:title="Privacy and Policy"
+        app:showAsAction="ifRoom"
+
+        />
+    <item
+        android:id="@+id/aboutus"
+        android:title="About Us"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_phone_android_black_24dp"/>
+</menu>

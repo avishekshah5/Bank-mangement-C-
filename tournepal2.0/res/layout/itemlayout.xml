@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       >
+       <ImageView
+           android:layout_width="60dp"
+           android:layout_height="50dp"
+           android:src="@drawable/ic_person_black_24dp"
+           android:id="@+id/image"
+
+           />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:text="Username"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/image"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:text="Addess"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/image"
+
+        />
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#000"
+           android:layout_below="@+id/address"
+           />
+
+
+   </RelativeLayout>
+
+</LinearLayout>
+
